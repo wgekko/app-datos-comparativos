@@ -21,6 +21,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 @st.cache_data
 def load_data():
     df = pd.read_excel("datos/crecimiento % PBI- PerCapita-Deflactor-Sector Privado.xlsx")
+    df.columns = df.columns.str.strip()
     return df
 
 df = load_data()
@@ -67,7 +68,16 @@ if paises_seleccionados:
     filtrado = filtrado[filtrado['Pais'].isin(paises_seleccionados)]
 
 # Definición de variables numéricas disponibles para los ejes
-variables = ['Crecimiento PBI % Anual',	'Crecimiento PBI PerCapita % Anual', 'Inflacion Deflactor % PBI', 'Crecimiento Interno Sector Privado % PBI']
+#variables = ['Crecimiento PBI % Anual',	'Crecimiento PBI PerCapita % Anual', 'Inflacion Deflactor % PBI', 'Crecimiento Interno Sector Privado % PBI']
+# Ahora esto funcionará porque el nombre en el DF ya no tiene el espacio oculto
+variables = [
+    'Crecimiento PBI % Anual', 
+    'Crecimiento PBI PerCapita % Anual', 
+    'Inflacion Deflactor % PBI', 
+    'Crecimiento Interno Sector Privado % PBI'
+]
+
+
 
 # Tipos de gráficos marginales disponibles en Plotly
 margen_grafico = ["Ninguno","histogram", "rug", "box", "violin"]
