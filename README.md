@@ -66,5 +66,23 @@ chartCategoricalColors1 = [
 [theme.sidebar]
 backgroundColor = "#1E3A5F"
 secondaryBackgroundColor = "#1B263B"
+
+lind de codigo de portal animado de ingreso de la app 
+https://codepen.io/matt-cannon/pen/OPPJLNa
+link de video base de codigo de modelo de analisis 
+https://www.youtube.com/watch?v=JgaYJ0YRJ5I
+
+descripcion de la app 
+Data App analítica basada en datos del Banco Mundial y de una empresa tech
+Desarrollo de una aplicación interactiva en Python, Streamlit y Plotly que integra y analiza datos oficiales del Banco Mundial sobre actividad agrícola, comercio y PBI, orientada a exploración avanzada y análisis comparativo. Y además de ventas de productos de  tecnológico de una tienda. 
+La app permite filtrar dinámicamente por año, región y país, comparar indicadores clave mediante gráficos de dispersión con análisis estadístico marginal y visualizar su evolución histórica con animaciones temporales.
+Pensada para analistas, BI y perfiles técnicos, facilita la detección de patrones macroeconómicos, relaciones entre productividad y comercio, y soporta decisiones basadas en datos confiables y escalables.
+
+
+video demo 
+
+
+
+
 headingFontSizes = ["1.6rem", "1.4rem", "1.2rem"]
 dataframeHeaderBackgroundColor = "#1A2A40"
