@@ -66,6 +66,10 @@ chartCategoricalColors1 = [
 [theme.sidebar]
 backgroundColor = "#1E3A5F"
 secondaryBackgroundColor = "#1B263B"
+headingFontSizes = ["1.6rem", "1.4rem", "1.2rem"]
+dataframeHeaderBackgroundColor = "#1A2A40"
+
+
 
 lind de codigo de portal animado de ingreso de la app 
 https://codepen.io/matt-cannon/pen/OPPJLNa
@@ -84,5 +88,3 @@ video demo
 
 
 
-headingFontSizes = ["1.6rem", "1.4rem", "1.2rem"]
-dataframeHeaderBackgroundColor = "#1A2A40"
